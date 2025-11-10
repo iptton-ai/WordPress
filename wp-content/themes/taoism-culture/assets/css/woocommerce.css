@@ -552,6 +552,7 @@
 }
 
 .related.products ul.products,
+.related.products .related-products-grid,
 .upsells.products ul.products {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -564,6 +565,7 @@
 
 @media (min-width: 640px) {
     .related.products ul.products,
+    .related.products .related-products-grid,
     .upsells.products ul.products {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -571,6 +573,7 @@
 
 @media (min-width: 960px) {
     .related.products ul.products,
+    .related.products .related-products-grid,
     .upsells.products ul.products {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -578,12 +581,14 @@
 
 @media (min-width: 1280px) {
     .related.products ul.products,
+    .related.products .related-products-grid,
     .upsells.products ul.products {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
 
 .related.products ul.products,
+.related.products .related-products-grid,
 .upsells.products ul.products {
     max-width: 1120px;
     margin-left: auto;
@@ -591,7 +596,8 @@
 }
 
 .related.products ul.products li.product,
-.upsells.products ul.products li.product {
+.upsells.products ul.products li.product,
+.related.products .shop-product-card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -606,12 +612,14 @@
 }
 
 .dark-mode .related.products ul.products li.product,
-.dark-mode .upsells.products ul.products li.product {
+.dark-mode .upsells.products ul.products li.product,
+.dark-mode .related.products .shop-product-card {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
 .related.products ul.products li.product:hover,
-.upsells.products ul.products li.product:hover {
+.upsells.products ul.products li.product:hover,
+.related.products .shop-product-card:hover {
     transform: translateY(-6px);
     box-shadow: var(--shadow-md);
 }
