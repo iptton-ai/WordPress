@@ -1,0 +1,17 @@
+Screenshot Note:
+================
+
+A screenshot.png file (1200x900px) should be placed in the theme root directory.
+This screenshot shows a preview of the theme in the WordPress admin.
+
+The screenshot should capture:
+- The homepage hero section with "The Way of Nature" title
+- The culture recommendations grid
+- Navigation bar with the Tao symbol logo
+- Overall design aesthetic showing the gold/green color scheme
+
+To generate a screenshot:
+1. Navigate to the live site homepage
+2. Take a screenshot at 1200x900 pixels
+3. Save as screenshot.png in the theme root directory
+
